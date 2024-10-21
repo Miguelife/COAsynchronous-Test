@@ -12,10 +12,12 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "Miguel Ángel Soto" => "miguelifesoto@gmail.com" }
 
-  spec.source       = { :git => "https://github.com/Miguelife/COAsynchronous-Test.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/Miguelife/COAsynchronous-Test.git", :tag => "1.0.3" }
 
   spec.ios.deployment_target = '13.0'
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  s.source_files = 'Pod/Classes'
+  s.resource_bundles = {
+    'COAsynchronous' => ['Pod/Assets/*.png']
+  }
 end
