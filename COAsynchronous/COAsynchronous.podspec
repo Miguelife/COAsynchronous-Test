@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "Miguel Ángel Soto" => "miguelifesoto@gmail.com" }
 
-  spec.source       = { :git => "https://github.com/Miguelife/COAsynchronous-Test.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/Miguelife/COAsynchronous-Test.git", :tag => "1.0.1" }
 
   spec.ios.deployment_target = '13.0'
 
